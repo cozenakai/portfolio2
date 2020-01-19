@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    
+}
+
+
+
+header {
+    background: #112
+}
+header h1,
+header p {
+    margin: 0;
+}
+
+header img {
+    width: 280px;
+    vertical-align: bottom
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.output {
+    background: #eee;
+    position: relative;
+}
