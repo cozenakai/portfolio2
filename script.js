@@ -15,5 +15,5 @@ function slideshow_timer(){
 setInterval(slideshow_timer, 1000);
 
 var rythm = new Rythm()
-rythm.setMusic('music/6.wav')
+rythm.setMusic('music/10.wav')
 rythm.start()
