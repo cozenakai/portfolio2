@@ -1,9 +1,26 @@
-const pics_src = ["img/a.JPG","img/b.JPG","img/c.JPG"];
+var name=[];
+
+for(var i=0; i<3; i++){
+  name[i]=prompt("Tell me your dream")
+};
+
+
+
+
+const pics_src = [  "portforio2/img/a.JPG",
+"portforio2/img/b.JPG",
+"portforio2/img/c.JPG",
+"portforio2/img/d.JPG",
+"portforio2/img/e.JPG",
+"portforio2/img/f.JPG",
+"portforio2/img/g.JPG",
+"portforio2/img/h.JPG",
+"portforio2/img/i.JPG",];
 let num = -1;
  
  
 function slideshow_timer(){
-  if (num === 2){
+  if (num === 8){
     num = 0;
   } 
   else {
@@ -11,9 +28,15 @@ function slideshow_timer(){
   }
   document.getElementById("mypic").src = pics_src[num];
 }
- 
-setInterval(slideshow_timer, 1000);
+
+
+
+setInterval(slideshow_timer, 4000);
+
+
 
 var rythm = new Rythm()
-rythm.setMusic('music/10.wav')
-rythm.start()
+rythm.setMusic('portforio2/music/1.wav');
+
+
+// rythm.start()
